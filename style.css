@@ -1,0 +1,62 @@
+li{
+    list-style: none;
+}
+.header{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(229, 92, 33);
+    font-size: 30px;
+}
+
+input{
+    width: 800px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.ul{
+margin: 1px;
+text-align: center;
+}
+.line > ul{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    color: rgb(75, 77, 77);
+    margin: 1px;
+}
+h1 {
+    text-align: center;
+    color: rgb(56, 56, 55);
+    font-family: "Guardian-EgypTT","Charter","Charter Bitstream","Cambria","Noto Serif Light","Droid Serif","Georgia","serif";
+}
+
+p{
+    margin-top: 0px;
+    color: black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   margin-left: 20px;
+   font-size: larger;
+
+}
+.imgflex{
+
+  
+
+    column-gap: 60px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 100px;
+   
+}
+.para{
+    margin-left: 20px;
+}
